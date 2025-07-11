@@ -36,7 +36,7 @@ SkillCraft is designed to revolutionize independent learning by:
 
 ```
 /
-├── subjects/           # Learning domains (electronics, history, etc.)
+├── subjects/           # Learning domains (LLM fundamentals, design patterns)
 ├── progress/           # Learning progress and assessment data
 ├── content/           # Generated tutorials and explanations
 ├── meta/              # System management and configuration

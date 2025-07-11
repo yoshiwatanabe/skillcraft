@@ -4,19 +4,13 @@ This directory contains the structured learning content for different subjects. 
 
 ## Available Subjects
 
-### 📡 Electronics Basics
-**Directory**: `electronics-basics/`
-- Fundamental concepts of electronics
-- Circuit analysis and design
-- Component understanding
-- Target level: Beginner to Intermediate
-
-### 🇺🇸 American History
-**Directory**: `american-history/`
-- American founding and constitutional history
-- Key historical events and figures
-- Political and social development
-- Target level: Beginner to Intermediate
+### 🤖 LLM Fundamentals
+**Directory**: `llm-fundamentals/`
+- Large Language Model fundamentals and architecture
+- Transformer mechanisms and attention
+- Training processes and optimization
+- Target level: Intermediate (customized for Microsoft Engineer)
+- **Status**: ✅ Active - Currently learning
 
 ### 💻 Design Patterns
 **Directory**: `design-patterns/`
@@ -24,6 +18,7 @@ This directory contains the structured learning content for different subjects. 
 - Object-oriented design concepts
 - Best practices in software architecture
 - Target level: Intermediate to Advanced
+- **Status**: 📋 Planned - Future learning subject
 
 ## Subject Structure
 

@@ -12,7 +12,15 @@ This directory contains the structured learning content for different subjects. 
 - Target level: Intermediate (customized for Microsoft Engineer)
 - **Status**: ✅ Active - Currently learning
 
-### 💻 Design Patterns
+### � Retirement Planning
+**Directory**: `retirement-planning/`
+- Comprehensive retirement financial management
+- Tax-advantaged accounts, tax planning, insurance, and investment strategies
+- Professional advisor communication and family financial leadership
+- Target level: Practical application for informed decision-making
+- **Status**: ✅ Active - Ready to begin
+
+### �💻 Design Patterns
 **Directory**: `design-patterns/`
 - Software design patterns and principles
 - Object-oriented design concepts

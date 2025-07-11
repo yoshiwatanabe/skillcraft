@@ -1,0 +1,56 @@
+# SkillCraft System Configuration
+
+# AI Agent Configuration
+ai_agents:
+  claude_code:
+    enabled: true
+    role: "main_interface"
+  github_copilot:
+    enabled: true
+    role: "vscode_integration"
+  gemini_cli:
+    enabled: true
+    role: "command_line"
+
+# Learning System Settings
+learning:
+  assessment_types:
+    - multiple_choice
+    - conversational
+    - practical_exercise
+  
+  difficulty_levels:
+    - beginner
+    - intermediate
+    - advanced
+  
+  content_formats:
+    - markdown
+    - html_interactive
+    - audio
+
+# Progress Tracking
+progress:
+  auto_save: true
+  backup_frequency: "daily"
+  retention_period: "1_year"
+
+# External Integrations
+external:
+  storage:
+    onedrive: false
+    google_drive: false
+  
+  content_sources:
+    youtube: true
+    web_resources: true
+
+# System Behavior
+system:
+  auto_optimization: true
+  prompt_logging: true
+  dependency_tracking: true
+
+---
+# Created: July 10, 2025
+# Version: 1.0

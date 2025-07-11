@@ -1,0 +1,60 @@
+# SkillCraft .gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Cache files
+.cache/
+cache/
+
+# Personal data (optional - depending on privacy requirements)
+# progress/personal/
+# assessments/personal/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.sublime-*
+
+# Node modules (if JavaScript dashboard is added)
+node_modules/
+npm-debug.log*
+
+# Python cache (if Python scripts are added)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration overrides
+local-config.yml
+local-config.json
+
+# Audio/Video files (stored externally)
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup

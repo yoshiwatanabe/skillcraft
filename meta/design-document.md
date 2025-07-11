@@ -113,19 +113,17 @@ AIエージェントを活用した独学支援システム。従来のWebポー
 
 ```
 /
-├── subjects/                    # 学習分野ごと
-│   ├── electronics-basics/
-│   ├── american-history/
-│   └── design-patterns/
-├── progress/                    # 進捗・理解度データ
+├── subjects/                    # 学習分野ごと（各分野が独自のコンテンツ構造を持つ）
+│   ├── llm-fundamentals/        # 現在学習中
+│   │   ├── content/             # 学習コンテンツ
+│   │   ├── assessments/         # テスト・評価
+│   │   └── progress/            # 進捗記録
+│   └── design-patterns/         # 将来の学習予定
+├── progress/                    # グローバル進捗・横断的分析
 │   ├── daily/                  # 日別の学習記録
-│   ├── assessments/             # 理解度テスト結果
-│   ├── timeline/                # 時系列データ
+│   ├── assessments/             # 横断的理解度テスト結果
+│   ├── timeline/                # 全体の時系列データ
 │   └── achievements/            # バッジ・アチーブメント
-├── content/                     # 生成された学習コンテンツ
-│   ├── tutorials/               # AIが生成したTutorial
-│   ├── tests/                   # テスト問題
-│   └── explanations/            # カスタマイズされた解説
 ├── meta/                        # システム管理用
 │   ├── prompts/                 # 保存されたプロンプト
 │   ├── optimization-opportunities.md

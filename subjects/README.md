@@ -22,11 +22,28 @@ This directory contains the structured learning content for different subjects. 
 
 ## Subject Structure
 
-Each subject directory should contain:
-- `concepts.md` - Core concepts and learning objectives
-- `dependencies.yml` - Learning dependency graph
-- `resources.md` - External resources and references
-- Individual concept files organized by topic
+Each subject directory contains its own complete learning environment:
+
+```
+{subject-name}/
+├── metadata.md                 # Subject configuration and goals
+├── scope-definition.md         # Learning boundaries and focus areas
+├── knowledge-baseline.md       # Initial knowledge assessment
+├── learning-objectives.md      # Structured learning goals
+├── initial-concepts.md         # Concept hierarchy and dependencies
+├── content/                    # Subject-specific learning materials
+│   ├── session-*.md            # Learning sessions and tutorials
+│   └── explanations/           # Detailed concept explanations
+├── assessments/                # Subject-specific tests and evaluations
+│   ├── baseline-test.md        # Initial knowledge test
+│   ├── progress-checks/        # Regular assessment materials
+│   └── results/                # Test results and analysis
+└── progress/                   # Subject-specific progress tracking
+    ├── session-logs/           # Individual session records
+    └── milestones/             # Achievement tracking
+```
+
+This structure ensures each subject is self-contained while maintaining consistency across all learning domains.
 
 ## Adding New Subjects
 

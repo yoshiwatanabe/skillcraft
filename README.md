@@ -36,9 +36,8 @@ SkillCraft is designed to revolutionize independent learning by:
 
 ```
 /
-├── subjects/           # Learning domains (LLM fundamentals, design patterns)
-├── progress/           # Learning progress and assessment data
-├── content/           # Generated tutorials and explanations
+├── subjects/           # Learning domains (each with its own content, assessments, progress)
+├── progress/           # Global learning progress and cross-subject analytics
 ├── meta/              # System management and configuration
 ├── external/          # External resource management
 └── dashboard/         # Human-readable UI components
